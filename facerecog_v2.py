@@ -1,3 +1,9 @@
+# in this verison 2. i made it such that the camera window opens, and it recognizes one face if there are multiple faces (in the future
+# version ill try implementing multiple faces at once.) for now it recognizes one face, once the user clicks "s" the face gets captured
+# and the photo is captured. then the user has to enter his name in the terminal for now. ill try to implement a front-end so that it 
+# all looks good and presentable. once the name is entered, the captured face is saved in the face_db folder
+
+
 import cv2
 import os
 from deepface import DeepFace
@@ -83,3 +89,4 @@ def capture_and_save_face():
 
 # Run the face capture function
 capture_and_save_face()
+
